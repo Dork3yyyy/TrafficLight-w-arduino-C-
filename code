@@ -1,0 +1,17 @@
+void setup() {
+  // put your setup code here, to run once:
+
+}
+
+void loop() {
+  // put your main code here, to run repeatedly:
+  digitalWrite(7, HIGH);   
+  delay(3000);                    //right light
+  digitalWrite(7, LOW);
+  digitalWrite(6, HIGH);
+  delay(2000);                    //yellow light
+  digitalWrite(6, LOW);
+  digitalWrite(5, HIGH);
+  delay(5000);                    //green light
+  digitalWrite(5, HIGH);
+}
